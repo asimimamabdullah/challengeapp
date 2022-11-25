@@ -74,7 +74,13 @@ export default function App() {
 						borderRadius: 30,
 						position: "absolute",
 					}}>
-					<Text style={{ fontSize: 18, color: "black", zIndex: -1 }}>
+					<Text
+						style={{
+							fontSize: 18,
+							color: "black",
+							zIndex: -1,
+							fontWeight: "bold",
+						}}>
 						Joined
 					</Text>
 				</View>
