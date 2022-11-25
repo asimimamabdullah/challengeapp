@@ -1,20 +1,10 @@
 import { LinearGradient } from "expo-linear-gradient";
 import { StatusBar } from "expo-status-bar";
-import { useState } from "react";
-import {
-	Button,
-	StyleSheet,
-	Text,
-	View,
-	Animated,
-	Pressable,
-} from "react-native";
+import { StyleSheet, Text, View, Animated, Pressable } from "react-native";
 import check from "./assets/check.png";
 
 export default function App() {
 	const anim = new Animated.Value(0);
-	const animCheck = new Animated.Value(0);
-	const animJoined = new Animated.Value(0);
 
 	const handleClick = () => {
 		Animated.timing(anim, {
