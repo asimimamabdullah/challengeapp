@@ -36,7 +36,7 @@ export default function App() {
 			</Text>
 
 			<Pressable onPress={handleClick}>
-				<Animated.View style={{ opacity: opacityJoined }}>
+				<Animated.View style={{ opacity: opacityJoined, zIndex: 99 }}>
 					<LinearGradient
 						style={{
 							width: 100,
